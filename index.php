@@ -9,6 +9,9 @@
 <!-- Custom Theme files -->
 
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" property="" />   
 <!-- //Custom Theme files -->
