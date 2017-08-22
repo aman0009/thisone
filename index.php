@@ -60,9 +60,9 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 						<ul class="nav navbar-nav navbar-left"> 
 							<li><a href="index.php" class="w3ls-hover active">Home</a></li>
 							<li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
-							<li><a href="iv.html" class="btn w3ls-hover">Inustrial Visits</a></li>
+							<li><a href="#" class="btn w3ls-hover">Inustrial Visits</a></li>
 							<li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
-							<li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
+							<li><a href="#" class="btn w3ls-hover">Contact</a></li>
 						</ul>	   
 						<div class="social-icon">
 							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 

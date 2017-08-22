@@ -43,9 +43,9 @@
 						<ul class="nav navbar-nav navbar-left"> 
 							<li><a href="index.php" class="w3ls-hover active">Home</a></li>
 							<li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
-							<li><a href="iv.html" class="btn w3ls-hover">Inustrial Visits</a></li>
-							<li><a href="about.html" class="btn w3ls-hover">About us</a></li>  
-							<li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
+							<li><a href="#" class="btn w3ls-hover">Inustrial Visits</a></li>
+							<li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
+							<li><a href="#" class="btn w3ls-hover">Contact</a></li>
 						</ul>
 							</li>  
 						</ul>	   
