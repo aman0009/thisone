@@ -58,7 +58,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 							<li><a href="index.php" class="w3ls-hover active">Home</a></li>
 							<li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
 							<li><a href="iv.html" class="btn w3ls-hover">Inustrial Visits</a></li>
-							<li><a href="about.html" class="btn w3ls-hover">About us</a></li>  
+							<li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
 							<li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
 						</ul>	   
 						<div class="social-icon">
@@ -139,7 +139,14 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 	<div class="newsletter">
 		<div class="container">
 			<h3 class="agileits-title">Services</h3>
-			<p>Mauris est odio laoreet laoreet sapien non, sollicitudin bibendum nulla amet purus sodales blandit.</p>
+			<i class="material-icons" style="font-size: 60px;">hotel</i>
+			<i class="material-icons" style="font-size: 60px;">directions_bus</i>
+			<i class="material-icons" style="font-size: 60px;">rowing</i>
+			<i class="material-icons" style="font-size: 60px;">directions_bike</i>
+			<p style="color: #213;">ACCOMODATION</p>
+			<p style="color: #213;">TRAVEL AND TRANSPORT</p>
+			<p style="color: #213;">ADVENTURES/THRILL ACTIVITIES</p>
+            <p style="color: #213;">RENTAL BIKES AND CARS</p>
 			<form action="#" method="post"> 
 				
 				<div class="clearfix"> </div> 
