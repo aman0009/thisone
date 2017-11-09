@@ -15,9 +15,10 @@
 }
 
 .font-alt {
-    font-family: "Dosis", sans-serif;
-    text-transform: uppercase;
+    font-family: "Dosis",sans-serif;
     text-align: center;
+    text-transform: uppercase;
+    height: 49px;
 }
 
 .font-inc {
@@ -27,7 +28,7 @@
 }
 
 .content-box {
-    margin: 25px auto;
+    margin: 63px;
 }
 
 .content-box-icon {

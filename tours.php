@@ -43,16 +43,15 @@
 						<ul class="nav navbar-nav navbar-left"> 
 							<li><a href="index.php" class="w3ls-hover active">Home</a></li>
 							<li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
-							<li><a href="#" class="btn w3ls-hover">Inustrial Visits</a></li>
+							<li><a href="index.php" class="btn w3ls-hover">Inustrial Visits</a></li>
 							<li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
-							<li><a href="#" class="btn w3ls-hover">Contact</a></li>
-						</ul>
-							</li>  
+							<li><a href="contactus.php" class="btn w3ls-hover">Contact</a></li>
 						</ul>	   
 						<div class="social-icon">
 							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
-							<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a> 
 							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
+							<a href="user.php"><span>New User</span></a>  
+ 
 						</div> 
 						<div class="clearfix"> </div>
 					</div><!-- //navbar-collapse --> 
@@ -152,47 +151,62 @@
 	</div>
 
 	
-	<!-- //newsletter -->
-	<!-- footer start here --> 
-	<div class="footer-agile">
-		<div class="container">
-			<div class="footer-agileinfo"> 
-				<div class="col-md-5 col-sm-5 footer-wthree-grid"> 
-					<div class="agileits-w3layouts-tweets">  
-						<h5><a href="index.html">FizzFlyer</a></h5> 
-						<div class="social-icon footerw3ls">
-							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
-						<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
-						</div>
-					</div>
-					<p>FizzFlyer Pvt. Ltd. is the first of its kind trip planner start-up company.
-                         We are offering budget tours for group of enthusiasts and college goers with high quality transport and stay.</p>
-				</div> 
-				<div class="col-md-3 col-sm-3 footer-wthree-grid">
-					<h3>Quick Links</h3>
-					<ul>
-						<li><a href="index.html"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
-						<li><a href="about.html"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
-						<li><a href="tours.html"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
-						<li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
-					</ul>
-				</div> 	 
-				<div class="col-md-4 col-sm-4 footer-wthree-grid">
-					<h3>Contact Details:</h3>
-					<ul>
-						<li>SRM University</li> 
-						<li>Q-404 Abode Valley</li>
-						<li>Phone: +91 7987199909</li>
-						<li><a href=""> amansharma33.as@gmail.com</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>		
-			</div>
-			<div class="copy-right"> 
-				<p>© 2017 FizzFlyer . All rights reserved | Design by <a href="https://amanportfolio.herokuapp.com/" target="_blank">Aman Sharma</a></p>
-			</div>
-		</div>
-	</div> 
+
+
+
+<div class="footer-agile">
+    <div class="container">
+      <div class="footer-agileinfo"> 
+        <div class="col-md-3 col-sm-3 footer-wthree-grid">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.php"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
+            <li><a href="about.php"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
+            <li><a href="tours.php"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
+            <li><a href="contactus.php"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
+          </ul>
+        </div>   
+        <div class="col-md-4 col-sm-4 footer-wthree-grid">
+          <h3>Contact Details:</h3>
+          <ul>
+            <li>Phone: +91 7987199909</li>
+            <li><a href=""> support@fizzflyer.in <br> head_marketing@fizzflyer.in</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-4 footer-wthree-grid">
+          <h3>Partner With Us:</h3>
+          <ul>
+            <li><a href="registration.php" class="btn w3ls-hover">Hotele Partner</a></li> 
+            <li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div> 
+
+
+
+    <div class="footer-agile">
+    <div class="container">
+      <div class="footer-agileinfo"> 
+        <div class="col-md-5 col-sm-5 footer-wthree-grid"> 
+          <div class="agileits-w3layouts-tweets">  
+            <h5 style="margin-top: 15px;"><a href="index.html"><img src="img/1.jpg" style="width: 200px; height: 100px;margin: 5px;"></a></h5> 
+            <div class="social-icon footerw3ls" style="margin-top: 10px;">
+              <a href="#" class="social-button facebook" style="margin-top: 10px;"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="social-button google" style="margin-top: 10px;"><i class="fa fa-google-plus"></i></a>  
+            </div>
+          </div>
+          <p></p>
+        </div> 
+      
+      <div class="copy-right"> 
+        <p>© 2017 FizzFlyer . All rights reserved | Design by <a href="" target="_blank">Fizz Flyer and Company </a></p>
+      </div>
+    </div>
+  </div> 
 	
 	<script src="js/jquery.filterizr.js"></script>  
 	<script src="js/controls.js"></script>
@@ -227,25 +241,15 @@
 	<!-- smooth-scrolling-of-move-up -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-			};
-			*/
+	
 			
 			$().UItoTop({ easingType: 'easeOutQuart' });
 			
 		});
 	</script>
-	<!-- //smooth-scrolling-of-move-up -->   
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+	
     <script src="js/bootstrap.js"></script>
 </body>
 
-<!-- Mirrored from p.w3layouts.com/demos_new/08-02-2017/holiday_spot-demo_Free/1174496677/web/tours.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Jul 2017 14:26:15 GMT -->
+<
 </html>

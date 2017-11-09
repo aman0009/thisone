@@ -71,13 +71,14 @@ img {
 						<ul class="nav navbar-nav navbar-left"> 
 							<li><a href="index.php" class="w3ls-hover active">Home</a></li>
 							<li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
-							<li><a href="iv.html" class="btn w3ls-hover">Inustrial Visits</a></li>
+							<li><a href="index.php" class="btn w3ls-hover">Inustrial Visits</a></li>
 							<li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
-							<li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
+							<li><a href="contactus.php" class="btn w3ls-hover">Contact</a></li>
 						</ul>	   
 						<div class="social-icon">
 							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
 							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
+							<a href="user.php"><span>New User</span></a>  
 
 						</div> 
 						<div class="clearfix"> </div>
@@ -139,12 +140,11 @@ img {
 							<img src="img/index-07.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-						<h3>KODAIKANAL</h3>
-							<p class="tm-home-box-3-description">Some description</p>
+						
+							<h3 class="tm-home-box-3-description" style="color: #213;">KODAIKANAL</h3>
 					        <div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Price Starting:3999</span></a>
-							<a href="#" class="tm-home-box-2-link"></i></a>
+						    <p style="color: #bdbdbd;"> <b>Price Starting at Rs.4499</b></p>
+
 						</div>
 						</div>						
 					</div>					
@@ -155,12 +155,11 @@ img {
 							<img src="img/index-08.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-						<h3>Ooty</h3>
-							<p class="tm-home-box-3-description">Some description</p>
+						
+							<h3 class="tm-home-box-3-description" style="color: #213;">OOTY</h3>
 					        <div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Price Starting:4999</span></a>
-							<a href="#" class="tm-home-box-2-link"></i></a>
+						    <p style="color:#bdbdbd;"><b> Price Starting at Rs.4499</b></p>
+
 						</div>
 						</div>						
 					</div>
@@ -171,12 +170,11 @@ img {
 							<img src="img/index-09.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-						<h3>Coorg</h3>
-							<p class="tm-home-box-3-description">Some Description</p>
+						
+							<h3 class="tm-home-box-3-description" style="color: #213;">COORG</h3>
 					        <div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Starting Price:4499</span></a>
-							<a href="#" class="tm-home-box-2-link"></i></a>
+						    <p style="color: #bdbdbd;"><b>Price Starting at Rs.4499</b></p>
+
 						</div>
 						</div>						
 					</div>
@@ -187,12 +185,11 @@ img {
 							<img src="img/index-10.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-						<h3>Pondichery</h3>
-							<p class="tm-home-box-3-description">Starting at 2999</p>
+						
+							<h3 class="tm-home-box-3-description" style="color: #213;">PONDICHERRY</h3>
 					        <div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Starting Price:2999</span></a>
-							<a href="#" class="tm-home-box-2-link"></i></a>
+						    <p style="color: #bdbdbd;"><b> Price Starting at Rs.4499</b></p>
+
 						</div>
 						</div>						
 					</div>
@@ -333,8 +330,8 @@ img {
 				<div class="col-md-4 col-sm-4 footer-wthree-grid">
 					<h3>Partner With Us:</h3>
 					<ul>
-						<li><a href="registration.html" class="btn w3ls-hover">Hotele Partner</a></li> 
-						<li><a href="registration1.html" class="btn w3ls-hover">Travel Agent Partner</a></li>
+						<li><a href="registration.php" class="btn w3ls-hover">Hotel Partner</a></li> 
+						<li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
 					</ul>
 				</div>
 				

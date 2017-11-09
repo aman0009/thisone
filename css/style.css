@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	margin:0;
 	font-family: 'Roboto', sans-serif;
@@ -256,7 +251,7 @@ p {
     -ms-transition: 0.5s all;
 }
 .wthree-almubimg.wthree1-almubimg {
-    background: url(../images/img3.jpg)no-repeat center;
+    background: url(../images/img2.jpg)no-repeat center;
     background-size: cover;
 }
 .albums-left, .albums1-right {
@@ -420,6 +415,7 @@ p {
     background-color: #24202a;
 	padding: 4em 0 3em;
 } 
+
 .footer-wthree-grid:nth-child(1) {
     padding-right: 4em;
 } 

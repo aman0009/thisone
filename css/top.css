@@ -117,10 +117,7 @@ hr { border-top: 1px solid #213; }
 	padding: 10px 25px;
 	text-transform: uppercase;
 }
-.tm-home-box-2-container {
-	border-top: 1px solid #DDD;
-	overflow: hidden;
-}
+
 .tm-home-box-2-link {
 	display: inline-block;
 	height: 100%;
@@ -161,10 +158,10 @@ hr { border-top: 1px solid #213; }
 }
 .tm-home-box-3-img-container { float: left; }
 .tm-home-box-3-info {
-    height: 226px;
+    height: 179px;
     /* max-width: 305px; */
-    border: 1px solid #CCC;
-    border-left: none;
+    border: 1px solid black;
+    border-left: 2px;
 }
 .tm-home-box-3-description { padding: 40px 30px 44px; }
 .section-padding-bottom { padding-bottom: 60px; }
