@@ -40,7 +40,7 @@
 	}
 img {
     display: block;
-    margin: 0 auto;
+    margin: -47px auto;
 }
 
 </style>
@@ -107,7 +107,7 @@ img {
 
 
 
-<section class="container tm-home-section-1" id="more">
+<section class="container tm-home-section-1" id="more" >
 
 		</div>
 	
@@ -118,14 +118,14 @@ img {
 					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title" style="margin: 5px; font-family: sans-serif;">TOP DEALS</h2></div>
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
 				</div>
-				<img src="images/baza.jpeg" style="height: 500px; margin-top: 5px;">
+				<img src="images/baza.jpeg" style="height: 519px; padding-bottom: 70px;">
 			</div>
 		
 					
 		</div>
 	</section>		
 
-<section class="tm-white-bg section-padding-bottom">
+<section class="tm-white-bg section-padding-bottom" style="background-color: #eceff1 ;">
 		<div class="container">
 			<div class="row">
 				<div class="tm-section-header section-margin-top">
@@ -139,7 +139,7 @@ img {
 							<img src="img/index-07.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-						<h3 style="margin: 5px;">KODAIKANAL</h3>
+						<h3>KODAIKANAL</h3>
 							<p class="tm-home-box-3-description">Some description</p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"></i></a>
@@ -305,6 +305,10 @@ img {
         </div>
 
     </div>
+	
+<br>
+<br>
+<br>
 	<!-- //newsletter -->
 	<!-- footer start here --> 
 		<div class="footer-agile">
@@ -322,17 +326,15 @@ img {
 				<div class="col-md-4 col-sm-4 footer-wthree-grid">
 					<h3>Contact Details:</h3>
 					<ul>
-						<li>SRM University</li> 
-						<li>Q-404 Abode Valley</li>
 						<li>Phone: +91 7987199909</li>
-						<li><a href=""> amansharma33.as@gmail.com</a></li>
+						<li><a href=""> support@fizzflyer.in <br> head_marketing@fizzflyer.in</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 col-sm-4 footer-wthree-grid">
 					<h3>Partner With Us:</h3>
 					<ul>
-						<li><a href="registration.html" class="btn w3ls-hover">Being Hoteler</a></li> 
-						<li><a href="registration1.html" class="btn w3ls-hover">Being Traveller</a></li>
+						<li><a href="registration.html" class="btn w3ls-hover">Hotele Partner</a></li> 
+						<li><a href="registration1.html" class="btn w3ls-hover">Travel Agent Partner</a></li>
 					</ul>
 				</div>
 				
@@ -348,14 +350,13 @@ img {
 			<div class="footer-agileinfo"> 
 				<div class="col-md-5 col-sm-5 footer-wthree-grid"> 
 					<div class="agileits-w3layouts-tweets">  
-						<h5 style="margin-top: 15px;"><a href="index.html">FizzFlyer</a></h5> 
+						<h5 style="margin-top: 15px;"><a href="index.html"><img src="img/1.jpg" style="width: 200px; height: 100px;"></a></h5> 
 						<div class="social-icon footerw3ls" style="margin-top: 10px;">
 							<a href="#" class="social-button facebook" style="margin-top: 10px;"><i class="fa fa-facebook"></i></a> 
 						<a href="#" class="social-button google" style="margin-top: 10px;"><i class="fa fa-google-plus"></i></a>  
 						</div>
 					</div>
-					<p>FizzFlyer Pvt. Ltd. is the first of its kind trip planner start-up company.
-                         We are offering budget tours for group of enthusiasts and college goers with high quality transport and stay.</p>
+					<p></p>
 				</div> 
 			
 			<div class="copy-right"> 
