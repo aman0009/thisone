@@ -22,27 +22,6 @@
 <link href="css/style4.css" type="text/css" rel="stylesheet" media="all">  
 <link href="css/style5.css" type="text/css" rel="stylesheet" media="all">
 </head>
-<style type="text/css">
-  border1 {
-    border-top: 5px solid #01caa7;
-    width: 552px;
-    margin: 40px auto;
-}
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 7px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 98px 216px;
-    cursor: pointer;
-    border-radius: 5px;
-    height: 40px;
-}
-</style>
 <body style="background: #efefef;">
 <div class="header agileinfo-header"><!-- header -->
       <nav class="navbar navbar-default">
@@ -62,15 +41,16 @@
             <ul class="nav navbar-nav navbar-left"> 
               <li><a href="index.php" class="w3ls-hover active">Home</a></li>
               <li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
-              <li><a href="index.php" class="btn w3ls-hover">Inustrial Visits</a></li>
-              <li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
-              <li><a href="contactus.php" class="btn w3ls-hover">Contact</a></li>
+              <li><a href="iv.html" class="btn w3ls-hover">Inustrial Visits</a></li>
+              <li><a href="about.html" class="btn w3ls-hover">About us</a></li>  
+              <li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
+            </ul>
+              </li>  
             </ul>    
             <div class="social-icon">
               <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+              <a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a> 
               <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
-              <a href="user.php"><span>New User</span></a>  
- 
             </div> 
             <div class="clearfix"> </div>
           </div><!-- //navbar-collapse --> 
@@ -80,57 +60,95 @@
   
 
 
- <form action="/library/FormProcessor.php" enctype="multipart/form-data" id="contactForm" method="post" name="contactForm">
-  <input id="hidFormName" name="hidFormName" type="hidden" value="Contact Form" />
+ <form action="" enctype="multipart/form-data" id="contactForm" method="post" name="contactForm">
+  <input id="hidFormName" name="hidFormName" type="hidden" value="Contact Form"  align="center;" />
     <ul class="contactform clearfix nobullets">
-      <li class="twelvecol"><br>
+    
 
-     <div style="border: 3px solid #01caa7; width: 552px; margin: 40px auto;">
+      <div style="border: 3px solid #01caa7; width: 200px; margin: 40px auto;">
       </div>
 
-      <li class="twelvecol clearfix">
-        <h3>About your Hotel</h3> </li><br>
-      <li class="sixcol">
-        <label class="required" for="txtName">Name of the Hotel/Property</label>
-        <input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </li>
-      <li class="sixcol">
-        <label class="required" for="txtProTitle">Address</label>
-        <input type="text" class="text" id="txtName" name="Name" required="required" title="Professional Title"  /> </li>
-      <li class="sixcol">
-        <label class="required" for="txtCompany">City</label>
-        <input type="text" class="text" id="txtCompany" name="Name" required="required" title="Company" /> </li>
-      <li class="sixcol last">
-        <label class="required" for="txtPhone">Pincode</label>
-        <input type="tel" class="text" id="txtPhone" name="Phone" required="required" title="pincode"   /> </li>
-      <li class="sixcol">
-        <label class="required" for="txtEmail">State</label>
-        <input type="email" class="text" id="txtEmail" name="Email" required="required" title="Email Address"  /> </li>
-      <li class="sixcol last">
-        <label for="txtAddress">Website</label>
-        <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /> </li>
-      <li class="clearfloat"></li>
-      <li class="fourcol">
-        <label for="txtZip">Telephone No.</label>
-        <input type="text" class="text zip-mask" id="txtZip" name="Zip" title="Zip - #####"  /> </li>
-      <li class="fourcol">
-        <label for="txtCity">Mobile No.</label>
-        <input type="text" class="text" id="txtCity" name="City" title="City" /> </li>
-      <li class="fourcol last">
-        <label for="cboState">Star Category</label>
-          <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /> 
-      </li>
-      <li class="fourcol last">
-        <label for="cboState" >Property Description</label>
-          <textarea style="width: 240px; height: 100px;"></textarea>
-      </li><br>
 
-        <div style="border: 3px solid #01caa7; width: 552px; margin: 40px auto;">
+
+        <h3 style="text-align: center;">About your Hotel</h3> </li><br>
+       <table align="center">
+         <tr >
+          <td><b>Name of the Hotel/Property</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>Address</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>City</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>Pincode</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>State</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>Website</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>Telephone no.</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>Mobile No.</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>Star Category</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+          <tr>
+          <td><b>Property Description</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+       </table>
+
+
+
+
+
+
+
+    
+
+        <div style="border: 3px solid #01caa7; width: 200px; margin: 40px auto;">
       </div>
 
-      <li class="twelvecol clearfix">
-        <h3>Room Details</h3></li><br>
-      <li class="sixcol">
- <table>
+      
+        <h3 style="text-align: center;">Room Details</h3></li><br>
+      
+ <table align="center">
   <tr>
     <th style="padding: 11px;">Room Type</th>
     <th style="padding: 11px;">No. of Rooms</th>
@@ -138,137 +156,162 @@
   </tr>
   <tr>
     <td style="padding: 11px;">Standard</td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
-      <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 30px;" /></td>
+      <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 80px;"/></td>
   </tr>
   <tr>
     <td style="padding: 11px;">Deluxe</td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 30px;"/></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 80px;" /></td>
   </tr>
   <tr>
     <td style="padding: 11px;">Super Deluxe</td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 30px;"/></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 80px;" /></td>
   </tr>
   <tr>
     <td style="padding: 11px;">Executive</td>
-    <td style="padding: 11px;" > <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
+    <td style="padding: 11px;" > <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 30px;" /></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 80px;"/></td>
   </tr>
   <tr>
     <td style="padding: 11px;">Suite</td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 30px;"/></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 80px;"/></td>
   </tr>
   <tr>
     <td style="padding: 11px;">Family Suite</td>
-    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
-    <td style="padding: 11px;"><input type="text" class="text" id="txtAddress" name="Address" title="Street Address" /></td>
+    <td style="padding: 11px;"> <input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width: 30px;"/></td>
+    <td style="padding: 11px;"><input type="text" class="text" id="txtAddress" name="Address" title="Street Address" style="width:80px;"/></td>
   </tr>
 </table>
       </li>
 
-      <div style="border: 3px solid #01caa7; width: 552px; margin: 40px auto;">
+      <div style="border: 3px solid #01caa7; width: 200px; margin: 40px auto;">
       </div>
 
-      <li class="twelvecol clearfix">
-        <h3>Hotel Amenities and Services</h3></li><br>
-      <li class="sixcol">
- <table>
+        <h3 style="text-align: center;">Hotel Amenities and Services</h3></li><br>
+
+ <table align="center">
   <tr>
-    <th style="padding: 11px;">Amenity</th>
-    <th style="padding: 11px;">Choice</th>
-    <th style="padding: 11px;">Amenity</th>
-    <th style="padding: 11px;">Choice</th>
+    <th >Amenity</th>
+    <th >Choice</th>
+    <th >Amenity</th>
+    <th >Choice</th>
   </tr>
   <tr>
-    <td style="padding: 11px;">WIFI</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
-    <td style="padding: 11px;">Parking</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >WIFI</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 10px;"></td>
+    <td >Parking</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 10px;"></td>
   </tr>
   <tr>
-    <td style="padding: 11px;">Swimming Pool</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
-    <td style="padding: 11px;">Gym</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Swimming Pool</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Gym</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
   </tr>
   <tr>
-    <td style="padding: 11px;">Laundary Service</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
-    <td style="padding: 11px;">Massage/Spa</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Laundary Service</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Massage/Spa</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
   </tr>
   <tr>
-    <td style="padding: 11px;">AC</td>
-    <td style="padding: 11px;" ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
-    <td style="padding: 11px;">Restaurant</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td>AC</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Restaurant</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
   </tr>
   <tr>
-    <td style="padding: 11px;">Bar Lounge</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
-    <td style="padding: 11px;">Outdoor Sports</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Bar Lounge</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Outdoor Sports</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
   </tr>
   <tr>
-    <td style="padding: 11px;">Compl. Breakfast</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
-    <td style="padding: 11px;">Pickup/Drop</td>
-    <td style="padding: 11px;"><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Compl. Breakfast</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
+    <td >Pickup/Drop</td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
   </tr>
 </table>
       </li>
 
-      <div style="border: 3px solid #01caa7; width: 552px; margin: 40px auto;">
+      <div style="border: 3px solid #01caa7; width: 200px; margin: 40px auto;">
       </div>
 
      
-    
-     <li class="twelvecol clearfix">
-        <h3>Upload Pictures</h3></li><br>
-      <li class="sixcol">
-       <table>
+
+        <h3 style="text-align: center;">Upload Pictures</h3></li><br>
+ 
+       <table align="center">
        <tr>
          <td>Exterior View</td>
-         <td ><input type="file" name="pic" accept="image/*" style=" background-color: white;">
+         <td >
          </td>
        </tr>
         <tr>
-         <td>Reception/Lobby</td>
-         <td ><input type="file" name="pic" accept="image/*" style=" background-color: white;">
+         <td><input type="file" name="pic" accept="image/*" style=" background-color: white;"></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td>Rception/Lobby</td>
+         <td >
          </td>
+       </tr>
+        <tr>
+         <td><input type="file" name="pic" accept="image/*" style=" background-color: white;"></td>
+         <td></td>
        </tr>
         <tr>
          <td>Room Type 1</td>
-         <td ><input type="file" name="pic" accept="image/*" style=" background-color: white;">
+         <td >
          </td>
+       </tr>
+        <tr>
+         <td><input type="file" name="pic" accept="image/*" style=" background-color: white;"></td>
+         <td></td>
        </tr>
         <tr>
          <td>Room Type 2</td>
-         <td ><input type="file" name="pic" accept="image/*" style=" background-color: white;">
+         <td >
          </td>
        </tr>
         <tr>
+         <td><input type="file" name="pic" accept="image/*" style=" background-color: white;"></td>
+         <td></td>
+       </tr>
+       <tr>
          <td>Restaurant</td>
-         <td ><input type="file" name="pic" accept="image/*" style=" background-color: white;">
+         <td >
          </td>
+       </tr>
+        <tr>
+         <td><input type="file" name="pic" accept="image/*" style=" background-color: white;"></td>
+         <td></td>
        </tr>
         <tr>
          <td>Room Another Type</td>
-         <td ><input type="file" name="pic" accept="image/*" style=" background-color: white;">
+         <td >
          </td>
        </tr>
+        <tr>
+         <td><input type="file" name="pic" accept="image/*" style=" background-color: white;"></td>
+         <td></td>
+       </tr>
+
        </table>
       </li>
       
-      <li class="twelvecol">
+ 
         
       
       </li>
     </ul>
-    <button class="button" type="submit" form="nameform" value="Submit">Submit</button>
+    <div class="wrapper">
+    <button class="button" type="submit" form="nameform" value="Submit" style="margin-top: 40px; margin-bottom: 40px;">Submit</button>
+    </div>
 </form>
   
      
@@ -291,9 +334,9 @@
           <h3>Quick Links</h3>
           <ul>
             <li><a href="index.php"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
-            <li><a href="about.php"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
+            <li><a href="about.html"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
             <li><a href="tours.php"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
-            <li><a href="contactus.php"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
+            <li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
           </ul>
         </div>   
         <div class="col-md-4 col-sm-4 footer-wthree-grid">
@@ -306,8 +349,8 @@
         <div class="col-md-4 col-sm-4 footer-wthree-grid">
           <h3>Partner With Us:</h3>
           <ul>
-            <li><a href="registration.php" class="btn w3ls-hover">Hotel Partner</a></li> 
-            <li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
+            <li><a href="registration.html" class="btn w3ls-hover">Hotel Partner</a></li> 
+            <li><a href="registration1.html" class="btn w3ls-hover">Travel Agent Partner</a></li>
           </ul>
         </div>
         

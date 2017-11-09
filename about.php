@@ -53,16 +53,17 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-left"> 
 							<li><a href="index.php" class="w3ls-hover active">Home</a></li>
-              <li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
-              <li><a href="index.php" class="btn w3ls-hover">Inustrial Visits</a></li>
-              <li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
-              <li><a href="contactus.php" class="btn w3ls-hover">Contact</a></li>
-            </ul>    
-            <div class="social-icon">
-              <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
-              <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
-              <a href="user.php"><span>New User</span></a>  
-
+							<li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
+							<li><a href="iv.html" class="btn w3ls-hover">Inustrial Visits</a></li>
+							<li><a href="about.html" class="btn w3ls-hover">About us</a></li>  
+							<li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
+						</ul>
+							</li>  
+						</ul>	   
+						<div class="social-icon">
+							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+							<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a> 
+							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
 						</div> 
 						<div class="clearfix"> </div>
 					</div><!-- //navbar-collapse --> 
@@ -81,7 +82,7 @@
   
 	<div class="welcome portfolio">
 		<div class="container">  
-			<h3 class="agileits-title" style="font-size: 35px; margin-top: -250px; color: purple;"><u>How the Idea came to us?</u></h3> 
+			<h3 class="agileits-title" style="font-size: 35px;color: purple;"><u>How the Idea came to us?</u></h3> 
 
    <p style="color: #213; font-size: 18px;">
 As college students down south, our only summer respite was weekend trips to the hill stations Ooty and Kodaikanal. These trips although refreshing, were haphazardly planned and often exceeded our budgets. This being a common problem, we came up with Fizzflyer offering student centric trips complete with budget stay and travel with the necessary impetus on the adventure.
@@ -91,7 +92,7 @@ As college students down south, our only summer respite was weekend trips to the
 </div>
   	<div class="welcome portfolio">
 		<div class="container">  
-			<h3 class="agileits-title" style="font-size: 35px; margin-top:-100px; color: purple;"><u>Our Mission</u></h3> 
+			<h3 class="agileits-title" style="font-size: 35px; color: purple;"><u>Our Mission</u></h3> 
 
    <p style="color: #213; font-size: 18px;">
 To provide quality stay and travel at budget pricing and most importantly to satiate the whims of our customers to the fullest.
@@ -285,9 +286,9 @@ Our group tour packages include -college/school recreational tours, Industrial v
           <h3>Quick Links</h3>
           <ul>
             <li><a href="index.php"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
-            <li><a href="about.php"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
+            <li><a href="about.html"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
             <li><a href="tours.php"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
-            <li><a href="contactus.php"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
+            <li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
           </ul>
         </div>   
         <div class="col-md-4 col-sm-4 footer-wthree-grid">
@@ -300,8 +301,8 @@ Our group tour packages include -college/school recreational tours, Industrial v
         <div class="col-md-4 col-sm-4 footer-wthree-grid">
           <h3>Partner With Us:</h3>
           <ul>
-            <li><a href="registration.php" class="btn w3ls-hover">Hotele Partner</a></li> 
-            <li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
+            <li><a href="registration.html" class="btn w3ls-hover">Hotel Partner</a></li> 
+            <li><a href="registration1.html" class="btn w3ls-hover">Travel Agent Partner</a></li>
           </ul>
         </div>
         
