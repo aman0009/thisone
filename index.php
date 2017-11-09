@@ -350,7 +350,7 @@ img {
 			<div class="footer-agileinfo"> 
 				<div class="col-md-5 col-sm-5 footer-wthree-grid"> 
 					<div class="agileits-w3layouts-tweets">  
-						<h5 style="margin-top: 15px;"><a href="index.html"><img src="img/1.jpg" style="width: 200px; height: 100px;"></a></h5> 
+						<h5 style="margin-top: 15px;"><a href="index.html"><img src="img/1.jpg" style="width: 200px; height: 100px;margin: 5px;"></a></h5> 
 						<div class="social-icon footerw3ls" style="margin-top: 10px;">
 							<a href="#" class="social-button facebook" style="margin-top: 10px;"><i class="fa fa-facebook"></i></a> 
 						<a href="#" class="social-button google" style="margin-top: 10px;"><i class="fa fa-google-plus"></i></a>  
