@@ -47,7 +47,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a href="index.html" style="color: orange;">FizzFlyer</a></h1>
+						<h1><a href="index.php" style="color: orange;">FizzFlyer</a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -55,8 +55,8 @@
 							<li><a href="index.php" class="w3ls-hover active">Home</a></li>
 							<li><a href="tours.php" class="btn w3ls-hover">Tours</a></li>   
 							<li><a href="iv.html" class="btn w3ls-hover">Inustrial Visits</a></li>
-							<li><a href="about.html" class="btn w3ls-hover">About us</a></li>  
-							<li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
+							<li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
+							<li><a href="contactus.php" class="btn w3ls-hover">Contact</a></li>
 						</ul>
 							</li>  
 						</ul>	   

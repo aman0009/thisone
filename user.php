@@ -49,7 +49,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <h1><a href="index.html" style="color: orange;">FizzFlyer</a></h1>
+            <h1><a href="index.php" style="color: orange;">FizzFlyer</a></h1>
           </div> 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

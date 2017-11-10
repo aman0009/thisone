@@ -34,7 +34,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <h1><a href="index.html" style="color: orange;">FizzFlyer</a></h1>
+            <h1><a href="index.php" style="color: orange;">FizzFlyer</a></h1>
           </div> 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -201,9 +201,9 @@
   </tr>
   <tr>
     <td >WIFI</td>
-    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 10px;"></td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
     <td >Parking</td>
-    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 10px;"></td>
+    <td ><input id="txtOutpatient" name="Outpatient" type="checkbox" style="height: 20px;width: 20px;"></td>
   </tr>
   <tr>
     <td >Swimming Pool</td>
