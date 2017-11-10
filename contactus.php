@@ -36,7 +36,8 @@
 
 <body>
 
-<script async type='text/javascript' src='http://cdn.fancybar.net/ac/fancybar.js?zoneid=1502&amp;serve=C6ADVKE&amp;placement=w3layouts' id='_fancybar_js'></script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCJUs7P8nTPWlw9oUOct9SePAcNHwCE_vk &callback=initMap"
+  type="text/javascript"></script>
 
 <body>
   
