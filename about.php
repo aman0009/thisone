@@ -278,7 +278,6 @@ Our group tour packages include -college/school recreational tours, Industrial v
 
 
 
-
 <div class="footer-agile">
     <div class="container">
       <div class="footer-agileinfo"> 
@@ -290,7 +289,14 @@ Our group tour packages include -college/school recreational tours, Industrial v
             <li><a href="tours.php"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
             <li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
           </ul>
-        </div>   
+        </div>  
+        <div class="col-md-4 col-sm-4 footer-wthree-grid">
+          <h3>Partner With Us:</h3>
+          <ul>
+            <li><a href="registration.php" class="btn w3ls-hover">Hotel Partner</a></li> 
+            <li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
+          </ul>
+        </div> 
         <div class="col-md-4 col-sm-4 footer-wthree-grid">
           <h3>Contact Details:</h3>
           <ul>
@@ -298,13 +304,7 @@ Our group tour packages include -college/school recreational tours, Industrial v
             <li><a href=""> support@fizzflyer.in <br> head_marketing@fizzflyer.in</a></li>
           </ul>
         </div>
-        <div class="col-md-4 col-sm-4 footer-wthree-grid">
-          <h3>Partner With Us:</h3>
-          <ul>
-            <li><a href="registration.html" class="btn w3ls-hover">Hotel Partner</a></li> 
-            <li><a href="registration1.html" class="btn w3ls-hover">Travel Agent Partner</a></li>
-          </ul>
-        </div>
+        
         
       </div>
       

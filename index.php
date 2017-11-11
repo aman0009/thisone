@@ -75,10 +75,8 @@ img {
 							<li><a href="about.php" class="btn w3ls-hover">About us</a></li>  
 							<li><a href="contactus.php" class="btn w3ls-hover">Contact</a></li>
 						</ul>	   
-						<div class="social-icon">
-							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
-							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
-							<a href="user.php"><span>New User</span></a>  
+						<div class="social-icon">  
+							<a href="user.php"><span>Login/SignUp</span></a>  
 
 						</div> 
 						<div class="clearfix"> </div>
@@ -126,12 +124,12 @@ img {
 		</div>
 	</section>		
 
-<section class="tm-white-bg section-padding-bottom" style="background-color: #eceff1 ;">
+<section class="tm-white-bg section-padding-bottom" style="background-color: black ;">
 		<div class="container">
 			<div class="row">
 				<div class="tm-section-header section-margin-top">
 					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
-					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title" style="font-family: sans-serif;">Popular Packages</h2></div>
+					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title" style="font-family: sans-serif; color: white;">Popular Packages</h2></div>
 					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>	
 				</div>
 				<div class="col-lg-6">
@@ -141,11 +139,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213;">KODAIKANAL</h3>
-					        <div class="tm-home-box-2-container">
-						    <p style="color: #bdbdbd;"> <b>Price Starting at Rs.4499</b></p>
-
-						</div>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">KODAIKANAL@4499<h3>
+							<p style="font-size: 12px; color: white;">Kodaikanal is a hill town in the southern Indian state of Tamil Nadu. It’s set in an area of granite cliffs, forested valleys, lakes, waterfalls and grassy hills.</p>
 						</div>						
 					</div>					
 			     </div>
@@ -156,11 +151,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213;">OOTY</h3>
-					        <div class="tm-home-box-2-container">
-						    <p style="color:#bdbdbd;"><b> Price Starting at Rs.4499</b></p>
-
-						</div>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">OOTY@4499</h3>
+					        <p style="font-size: 12px; color: white;">Ooty, also known as Udhagamandalam, is a hill station in the state of Tamil Nadu, in southern India. Surrounded by trees, central Ooty Lake is a huge artificial expanse of water with pleasure boats.</p>
 						</div>						
 					</div>
 				</div>
@@ -171,11 +163,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213;">COORG</h3>
-					        <div class="tm-home-box-2-container">
-						    <p style="color: #bdbdbd;"><b>Price Starting at Rs.4499</b></p>
-
-						</div>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">COORG@4499</h3>
+							<p style="font-size: 12px; color: white;">Kodagu, also known as Coorg, is a rural district in the southwest Indian state of Karnataka. In the area’s north,</p>
 						</div>						
 					</div>
 			    </div>
@@ -186,11 +175,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213;">PONDICHERRY</h3>
-					        <div class="tm-home-box-2-container">
-						    <p style="color: #bdbdbd;"><b> Price Starting at Rs.4499</b></p>
-
-						</div>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">PONDICHERRY@4499</h3>
+					       <p style="font-size: 12px; color: white;">Pondicherry (or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the southeastern Tamil Nadu state</p>
 						</div>						
 					</div>
 			   	</div>
@@ -223,7 +209,7 @@ img {
                     </div>
                     <h5 class="content-box-title font-alt">ACCOMODATION</h5>
                     <div class="content-box-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+                       We offer the best possible hotel rates, to ensure traveller safety, provide an easy booking process and deliver traveller satisfaction – all wrapped up in one simple, integrated process.
                     </div>
                 </div>
             </div>
@@ -233,11 +219,11 @@ img {
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="content-box">
                     <div class="content-box-icon">
-                        <i class="ion-ios-gear-outline"></i>
+                        <i class="ion-android-plane"></i>
                     </div>
                     <h5 class="content-box-title font-alt">TRAVEL AND TRANSPORT</h5>
                     <div class="content-box-text">
-                        Nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+                        We provide an comfortable and safe transportation system and takes care of each and every single thing of a customer.
                     </div>
                 </div>
             </div>
@@ -247,11 +233,11 @@ img {
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="content-box">
                     <div class="content-box-icon">
-                        <i class="ion-ios-monitor-outline"></i>
+                        <i class="ion-android-bicycle"></i>
                     </div>
                     <h5 class="content-box-title font-alt">ADVENTURES/THRILL ACTIVITIES</h5>
                     <div class="content-box-text">
-                        Vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                        Wwide range of thrilling activites from Bungee jumping to aerosport that kicks your adrenaline.
                     </div>
                 </div>
             </div>
@@ -261,11 +247,11 @@ img {
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="content-box">
                     <div class="content-box-icon">
-                        <i class="ion-ios-lightbulb-outline"></i>
+                        <i class="ion-android-car"></i>
                     </div>
                     <h5 class="content-box-title font-alt">RENTAL BIKES AND CARS</h5>
                     <div class="content-box-text">
-                        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus bus tincidunt.
+                All you need is proper documents that allow you to ride and you are set to go! Unleash the travelling maniac in you because safe, reliable and exciting travelling is just a click away!.
                     </div>
                 </div>
             </div>
@@ -277,9 +263,9 @@ img {
                     <div class="content-box-icon">
                         <i class="ion-ios-clock-outline"></i>
                     </div>
-                    <h5 class="content-box-title font-alt">24/7 CUSTOMER SUPPORT</h5>
+                    <h5 class="content-box-title font-alt">LOGISTICS</h5>
                     <div class="content-box-text">
-                        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        Smart Easy and Hasslefree process for your valuable goods and vehicles.We provide an convenient and effecient process.
                     </div>
                 </div>
             </div>
@@ -289,15 +275,14 @@ img {
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="content-box">
                     <div class="content-box-icon">
-                        <i class="ion-ios-chatbubble-outline"></i>
+                        <i class="ion-android-contact"></i>
                     </div>
                     <h5 class="content-box-title font-alt">ONLINE SUPPORT</h5>
                     <div class="content-box-text">
-                        Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                        We provide tech support services to address your issues on call. Call our Customer Service executive or submit your request online, our tech support staff will get in touch with you.
                     </div>
                 </div>
             </div>
-            <!-- /CONTENT BOX -->
 
         </div>
 
@@ -319,7 +304,14 @@ img {
 						<li><a href="tours.php"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
 						<li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
 					</ul>
-				</div> 	 
+				</div> 	
+				<div class="col-md-4 col-sm-4 footer-wthree-grid">
+					<h3>Partner With Us:</h3>
+					<ul>
+						<li><a href="registration.php" class="btn w3ls-hover">Hotel Partner</a></li> 
+						<li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
+					</ul>
+				</div> 
 				<div class="col-md-4 col-sm-4 footer-wthree-grid">
 					<h3>Contact Details:</h3>
 					<ul>
@@ -327,13 +319,7 @@ img {
 						<li><a href=""> support@fizzflyer.in <br> head_marketing@fizzflyer.in</a></li>
 					</ul>
 				</div>
-				<div class="col-md-4 col-sm-4 footer-wthree-grid">
-					<h3>Partner With Us:</h3>
-					<ul>
-						<li><a href="registration.php" class="btn w3ls-hover">Hotel Partner</a></li> 
-						<li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
-					</ul>
-				</div>
+				
 				
 			</div>
 			

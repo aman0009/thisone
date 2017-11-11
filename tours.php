@@ -155,58 +155,59 @@
 
 
 <div class="footer-agile">
-    <div class="container">
-      <div class="footer-agileinfo"> 
-        <div class="col-md-3 col-sm-3 footer-wthree-grid">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="index.php"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
-            <li><a href="about.php"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
-            <li><a href="tours.php"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
-            <li><a href="contactus.php"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
-          </ul>
-        </div>   
-        <div class="col-md-4 col-sm-4 footer-wthree-grid">
-          <h3>Contact Details:</h3>
-          <ul>
-            <li>Phone: +91 7987199909</li>
-            <li><a href=""> support@fizzflyer.in <br> head_marketing@fizzflyer.in</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4 col-sm-4 footer-wthree-grid">
-          <h3>Partner With Us:</h3>
-          <ul>
-            <li><a href="registration.php" class="btn w3ls-hover">Hotele Partner</a></li> 
-            <li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
-          </ul>
-        </div>
-        
-      </div>
-      
-    </div>
-  </div> 
+		<div class="container">
+			<div class="footer-agileinfo"> 
+				<div class="col-md-3 col-sm-3 footer-wthree-grid">
+					<h3>Quick Links</h3>
+					<ul>
+						<li><a href="index.php"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
+						<li><a href="about.html"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
+						<li><a href="tours.php"><span class="glyphicon glyphicon-menu-right"></span> Tours</a></li>
+						<li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
+					</ul>
+				</div> 	
+				<div class="col-md-4 col-sm-4 footer-wthree-grid">
+					<h3>Partner With Us:</h3>
+					<ul>
+						<li><a href="registration.php" class="btn w3ls-hover">Hotel Partner</a></li> 
+						<li><a href="index.php" class="btn w3ls-hover">Travel Agent Partner</a></li>
+					</ul>
+				</div> 
+				<div class="col-md-4 col-sm-4 footer-wthree-grid">
+					<h3>Contact Details:</h3>
+					<ul>
+						<li>Phone: +91 7987199909</li>
+						<li><a href=""> support@fizzflyer.in <br> head_marketing@fizzflyer.in</a></li>
+					</ul>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+	</div> 
 
 
 
-    <div class="footer-agile">
-    <div class="container">
-      <div class="footer-agileinfo"> 
-        <div class="col-md-5 col-sm-5 footer-wthree-grid"> 
-          <div class="agileits-w3layouts-tweets">  
-            <h5 style="margin-top: 15px;"><a href="index.html"><img src="img/1.jpg" style="width: 200px; height: 100px;margin: 5px;"></a></h5> 
-            <div class="social-icon footerw3ls" style="margin-top: 10px;">
-              <a href="#" class="social-button facebook" style="margin-top: 10px;"><i class="fa fa-facebook"></i></a> 
-            <a href="#" class="social-button google" style="margin-top: 10px;"><i class="fa fa-google-plus"></i></a>  
-            </div>
-          </div>
-          <p></p>
-        </div> 
-      
-      <div class="copy-right"> 
-        <p>© 2017 FizzFlyer . All rights reserved | Design by <a href="" target="_blank">Fizz Flyer and Company </a></p>
-      </div>
-    </div>
-  </div> 
+		<div class="footer-agile">
+		<div class="container">
+			<div class="footer-agileinfo"> 
+				<div class="col-md-5 col-sm-5 footer-wthree-grid"> 
+					<div class="agileits-w3layouts-tweets">  
+						<h5 style="margin-top: 15px;"><a href="index.html"><img src="img/1.jpg" style="width: 200px; height: 100px;margin: 5px;"></a></h5> 
+						<div class="social-icon footerw3ls" style="margin-top: 10px;">
+							<a href="#" class="social-button facebook" style="margin-top: 10px;"><i class="fa fa-facebook"></i></a> 
+						<a href="#" class="social-button google" style="margin-top: 10px;"><i class="fa fa-google-plus"></i></a>  
+						</div>
+					</div>
+					<p></p>
+				</div> 
+			
+			<div class="copy-right"> 
+				<p>© 2017 FizzFlyer . All rights reserved | Design by <a href="" target="_blank">Fizz Flyer and Company </a></p>
+			</div>
+		</div>
+	</div> 
 	
 	<script src="js/jquery.filterizr.js"></script>  
 	<script src="js/controls.js"></script>
