@@ -41,7 +41,7 @@ body a:hover{
 .header { 
     width: 100%;
     padding: 1.5em 0;
-    background: rgba(0, 0, 0, 0.56);
+    background: black;
 	
 }
 .header nav.navbar.navbar-default {
@@ -412,7 +412,7 @@ p {
 /*-- //newsletter --*/
 /*-- footer start here --*/ 
 .footer-agile {
-    background-color: #24202a;
+    background-color: black;
 	padding: 4em 0 3em;
 } 
 

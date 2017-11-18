@@ -107,9 +107,7 @@ img {
 
 
 <section class="container tm-home-section-1" id="more" >
-
-		</div>
-	
+		
 		<div class="section-margin-top">
 			<div class="row">				
 				<div class="tm-section-header">
@@ -120,9 +118,8 @@ img {
 				<img src="images/baza.jpeg" style="height: 519px; padding-bottom: 70px;">
 			</div>
 		
-					
 		</div>
-	</section>		
+</section>		
 
 <section class="tm-white-bg section-padding-bottom" style="background-color: black ;">
 		<div class="container">
@@ -139,8 +136,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">KODAIKANAL@4499<h3>
-							<p style="font-size: 12px; color: white;">Kodaikanal is a hill town in the southern Indian state of Tamil Nadu. It’s set in an area of granite cliffs, forested valleys, lakes, waterfalls and grassy hills.</p>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white; text-align:center;">KODAIKANAL@4499<h3>
+							<p style="font-size: 12px; color: white; text-align:center; ">Kodaikanal is a hill town in the southern Indian state of Tamil Nadu. It’s set in an area of granite cliffs, forested valleys, lakes, waterfalls and grassy hills.</p>
 						</div>						
 					</div>					
 			     </div>
@@ -151,8 +148,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">OOTY@4499</h3>
-					        <p style="font-size: 12px; color: white;">Ooty, also known as Udhagamandalam, is a hill station in the state of Tamil Nadu, in southern India. Surrounded by trees, central Ooty Lake is a huge artificial expanse of water with pleasure boats.</p>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white; text-align:center;">OOTY@4499</h3>
+					        <p style="font-size: 12px; color: white; text-align:center;">Ooty, also known as Udhagamandalam, is a hill station in the state of Tamil Nadu, in southern India. Surrounded by trees, central Ooty Lake is a huge artificial expanse of water with pleasure boats.</p>
 						</div>						
 					</div>
 				</div>
@@ -163,8 +160,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">COORG@4499</h3>
-							<p style="font-size: 12px; color: white;">Kodagu, also known as Coorg, is a rural district in the southwest Indian state of Karnataka. In the area’s north,</p>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white; text-align:center;">COORG@4499</h3>
+							<p style="font-size: 12px; color: white; text-align:center;">Kodagu, also known as Coorg, is a rural district in the southwest Indian state of Karnataka. It shows the beauty in nature.</p>
 						</div>						
 					</div>
 			    </div>
@@ -175,8 +172,8 @@ img {
 						</div>						
 						<div class="tm-home-box-3-info">
 						
-							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white;">PONDICHERRY@4499</h3>
-					       <p style="font-size: 12px; color: white;">Pondicherry (or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the southeastern Tamil Nadu state</p>
+							<h3 class="tm-home-box-3-description" style="color: #213; padding: 0px; color: white; text-align:center;">PONDICHERRY@4499</h3>
+					       <p style="font-size: 12px; color: white; text-align:center;">Pondicherry (or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the southeastern Tamil Nadu state</p>
 						</div>						
 					</div>
 			   	</div>
@@ -185,13 +182,11 @@ img {
 	</section>
 
 
+<section id="services" class="module">
 
+    <div class="container">
 
-
-
-
-
-
+        <!-- MODULE TITLE -->
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt" style=" margin: 5px; color: black;">Services</h2>
@@ -209,7 +204,7 @@ img {
                     </div>
                     <h5 class="content-box-title font-alt">ACCOMODATION</h5>
                     <div class="content-box-text">
-                       We offer the best possible hotel rates, to ensure traveller safety, provide an easy booking process and deliver traveller satisfaction – all wrapped up in one simple, integrated process.
+                        We offer the best possible hotel rates, to ensure traveller safety, provide an easy booking process and deliver traveller satisfaction.
                     </div>
                 </div>
             </div>
@@ -237,7 +232,7 @@ img {
                     </div>
                     <h5 class="content-box-title font-alt">ADVENTURES/THRILL ACTIVITIES</h5>
                     <div class="content-box-text">
-                        Wwide range of thrilling activites from Bungee jumping to aerosport that kicks your adrenaline.
+                        Vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
                     </div>
                 </div>
             </div>
@@ -251,7 +246,7 @@ img {
                     </div>
                     <h5 class="content-box-title font-alt">RENTAL BIKES AND CARS</h5>
                     <div class="content-box-text">
-                All you need is proper documents that allow you to ride and you are set to go! Unleash the travelling maniac in you because safe, reliable and exciting travelling is just a click away!.
+                         All you need is proper documents that allow you to ride and you are set to go! Unleash the travelling maniac in you because safe.
                     </div>
                 </div>
             </div>
@@ -275,19 +270,23 @@ img {
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="content-box">
                     <div class="content-box-icon">
-                        <i class="ion-android-contact"></i>
+                        <i class="ion-ios-chatbubble-outline"></i>
                     </div>
                     <h5 class="content-box-title font-alt">ONLINE SUPPORT</h5>
                     <div class="content-box-text">
-                        We provide tech support services to address your issues on call. Call our Customer Service executive or submit your request online, our tech support staff will get in touch with you.
+                         We provide tech support services to address your issues on call. Call our Customer Service executive.
                     </div>
                 </div>
             </div>
+            <!-- /CONTENT BOX -->
 
         </div>
 
     </div>
-	
+
+</section>
+
+
 <br>
 <br>
 <br>
@@ -333,7 +332,7 @@ img {
 			<div class="footer-agileinfo"> 
 				<div class="col-md-5 col-sm-5 footer-wthree-grid"> 
 					<div class="agileits-w3layouts-tweets">  
-						<h5 style="margin-top: 15px;"><a href="index.html"><img src="img/1.jpg" style="width: 200px; height: 100px;margin: 5px;"></a></h5> 
+						
 						<div class="social-icon footerw3ls" style="margin-top: 10px;">
 							<a href="#" class="social-button facebook" style="margin-top: 10px;"><i class="fa fa-facebook"></i></a> 
 						<a href="#" class="social-button google" style="margin-top: 10px;"><i class="fa fa-google-plus"></i></a>  
