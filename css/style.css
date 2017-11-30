@@ -46,6 +46,7 @@ body a:hover{
 .header nav.navbar.navbar-default {
     background: transparent;
     margin: 0;
+    height: 109px;
 	z-index: 9999;
 	border: none;
 }
@@ -53,7 +54,7 @@ body a:hover{
     margin-left: 18%;; 
 }
 .header ul.nav.navbar-nav{ 
-	padding-top:1.3em;
+	padding-top:2.3em;
 }
 .header .navbar-nav { 
     text-align: center;
@@ -171,7 +172,7 @@ body a:hover{
 .social-icon a {
     font-size: 1.3em;
     color: #fff;
-    margin: 0 .7em;
+    margin: 11px; .7em;
     display: inline-block;
     text-align: center;
 	line-height: 2.2em;

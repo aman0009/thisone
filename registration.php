@@ -78,6 +78,12 @@
           <tr>
           <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
         </tr> 
+        <tr >
+          <td><b>Owner Name</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
           <tr>
           <td><b>Address</b></td>
         </tr> 
@@ -128,6 +134,18 @@
         </tr> 
           <tr>
           <td><b>Property Description</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+        <tr >
+          <td><b>Manager Name</b></td>
+        </tr> 
+          <tr>
+          <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
+        </tr> 
+        <tr >
+          <td><b>Manager Number</b></td>
         </tr> 
           <tr>
           <td><input type="text" class="text" id="txtName" name="Name" required="required" title="Full Name"  /> </td>
